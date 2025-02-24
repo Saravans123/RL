@@ -171,8 +171,8 @@ const DashboardContent = ({ onLogout }) => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const SHEET_ID = '1lcU9KEq9jpON6d1-5ojDgDMcdLmcKrUVPG1GQENb2bk';
-        const SHEET_GID = '795805122';
+        const SHEET_ID = '1Oam7QAlxDWzlCw8MkFXdl50wHWBkXu1-RrOsU-DhwEc';
+        const SHEET_GID = '1333445888';
         const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
         
         const response = await fetch(url);
